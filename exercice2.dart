@@ -8,6 +8,6 @@ try{
 } on FormatException {
   print('Format invalide:');
 } finally {
-
+  print("Fin d'operation");
 }
 }
